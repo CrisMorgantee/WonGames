@@ -38,15 +38,15 @@
     "rating": {
       "type": "enumeration",
       "enum": [
-        "Free",
-        "pegi3",
-        "pegi7",
-        "pegi12",
-        "pegi16",
-        "pegi18"
+        "BR0",
+        "BR10",
+        "BR12",
+        "BR14",
+        "BR16",
+        "BR18"
       ],
       "required": true,
-      "default": "Free"
+      "default": "BR0"
     },
     "cover": {
       "model": "file",
